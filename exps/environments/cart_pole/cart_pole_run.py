@@ -1,11 +1,11 @@
 """Python Script Template."""
 from rllib.environment import GymEnvironment
-from saddle_reps.environment.random_action_wrapper import RandomActionWrapper
+from qreps.environment.random_action_wrapper import RandomActionWrapper
 from rllib.util.utilities import set_random_seed
 import os
 from torch.optim import Adam
 from exps.utilities import parse_arguments, run_experiment
-from saddle_reps.agent.q_reps_agent import QREPSAgent
+from qreps.agent.q_reps_agent import QREPSAgent
 from exps.environments.utilities import get_benchmark_agents
 
 args = parse_arguments()

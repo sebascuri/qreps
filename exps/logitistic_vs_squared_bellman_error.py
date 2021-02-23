@@ -2,7 +2,7 @@ import torch
 from torch.nn.modules.loss import MSELoss, SmoothL1Loss
 from rllib.policy import TabularPolicy
 from torch.distributions import Categorical
-from saddle_reps.util.utilities import average_policy_evaluation, mdp2mrp
+from qreps.util.utilities import average_policy_evaluation, mdp2mrp
 import matplotlib.pyplot as plt
 import seaborn as sns
 

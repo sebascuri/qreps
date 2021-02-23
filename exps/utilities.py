@@ -4,7 +4,7 @@ import pandas as pd
 from rllib.util.rollout import rollout_agent
 from rllib.util.utilities import set_random_seed
 import numpy as np
-from saddle_reps.agent import (
+from qreps.agent import (
     REPSExactAgent,
     REPSSampleExactAgent,
     REPSSaddleExactAgent,
@@ -12,7 +12,7 @@ from saddle_reps.agent import (
     QREPSSaddleAgent,
     QREPSAgent,
 )
-from saddle_reps.util.utilities import (
+from qreps.util.utilities import (
     average_policy_evaluation,
     linear_system_policy_evaluation,
 )

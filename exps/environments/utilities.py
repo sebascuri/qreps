@@ -2,7 +2,7 @@
 from itertools import chain
 import seaborn as sns
 
-from saddle_reps.util.utilities import (
+from qreps.util.utilities import (
     get_default_q_function,
     get_default_policy,
     get_default_value_function,

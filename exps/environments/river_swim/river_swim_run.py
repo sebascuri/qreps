@@ -1,7 +1,7 @@
 """Python Script Template."""
 from rllib.environment import GymEnvironment
 from rllib.util.utilities import set_random_seed
-from saddle_reps.environment.random_action_wrapper import RandomActionWrapper
+from qreps.environment.random_action_wrapper import RandomActionWrapper
 
 import os
 
