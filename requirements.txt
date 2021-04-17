@@ -1,4 +1,4 @@
--e git+ssh://git@github.com/sebascuri/rllib@dev#egg=rllib
+-e git+ssh://git@github.com/sebascuri/rllib@16fd88914ab35b775839423bdca0f491a34cc612#egg=rllib
 numpy>=1.14,<2
 scipy>=1.3.0,<1.4.0
 torch>=1.6.0,<1.7.0
