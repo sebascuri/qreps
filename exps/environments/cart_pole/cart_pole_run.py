@@ -20,9 +20,10 @@ args.num_iter = 200
 args.gamma = 0.99
 weight_decay = 1e-4
 args.optimizer_ = Adam
+args.seed = 0
 
 set_random_seed(args.seed)
-env = GymEnvironment(args.env_name, 0)
+env = GymEnvironment(args.env_name, args.seed)
 env.add_wrapper(RandomActionWrapper, p=args.random_action_p)
 
 agent = QREPSAgent.default(env, **vars(args), weight_decay=weight_decay)
